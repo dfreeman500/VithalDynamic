@@ -7,7 +7,7 @@ namespace VithalDynamic.Models
 {
     public class OrderModel
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string ProductCode { get; set; }
         public string ProductName { get; set; }
         public Int16 Qty { get; set; }
@@ -21,7 +21,7 @@ namespace VithalDynamic.Models
         /// To hold list of orders  
         /// </summary>  
         /// 
-        public string Id { get; set; }
+        public int Id { get; set; }
         public List<OrderModel> OrderDetails { get; set; }
 
     }
